@@ -100,6 +100,10 @@
 }
 
 @media (max-width: 640px) {
+  .container{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   .hero {
     background-size: 509px 484px;
   }
@@ -110,4 +114,35 @@
     font-size: 60px;
     margin-bottom: 30px;
   }
+
+  .nav .nav__link{
+    font-size: 12px;
+  }
+  .nav .nav__list .nav__item:nth-child(2){
+    margin-right: 0;
+  }
+  .header__logo-link img{
+    width: 92px;
+  }
+  .header__logo-link{
+    margin-right: 10px;
+
+  }
+  .header__lang-wrapper{
+    margin-right: 0;
+
+  }
+  .lang__selacted{
+    font-size: 12px !important;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  
 }
+.lang{
+    /* min-width: auto; */
+
+  }
+}
+
